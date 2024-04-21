@@ -1,0 +1,1727 @@
+{
+  "acceptance": {
+    "acceptAllDialog": {
+      "content": "هل تؤكد قبول جميع التحديثات؟",
+      "header": "قبول كافة التحديثات"
+    },
+    "acceptDialog": {
+      "content": "هل تؤكد قبول التحديث؟",
+      "header": "قبول التحديث"
+    },
+    "acceptanceResponsibility": "مسؤولية القبول",
+    "acceptanceTasks": "مهام القبول",
+    "attachments": "المرفقات",
+    "changes": {
+      "highlights": {
+        "isDeleted": "تم حذف التعليق العام",
+        "isNew": "تم اضافة تعليق عام جديد"
+      },
+      "milestone": {
+        "isDeleted": "تم حذف مرحلة زمنية رئيسية للمشروع",
+        "isNew": "تم اضافة مرحلة زمنية رئيسية للمشروع"
+      },
+      "photoGroups": {
+        "isDeleted": "تم حذف مجموعة الصور",
+        "isNew": "تم إضافة مجموعة الصور"
+      },
+      "supportingEntities": {
+        "isDeleted": "تم حذف جهة داعمة",
+        "isNew": "تم اضافة جهة داعمة جديدة"
+      }
+    },
+    "colleague": {
+      "confirmContent": "التغييرات التي تجريها على الخطوات والزملاء المسؤولين ستؤثر على طلبات القبول الفعالة",
+      "confirmHeader": "لديك طلبات قبول نشطة",
+      "description": "المستخدمون الذين سيتم إخطارهم ومطلوب منهم تحديث وقبول البيانات. فقط عندما يقبل المراجع النهائي المحتوى، سيتم نشره مباشرة في نظام المراقبة والمتابعة.",
+      "title": "ترتيب قبول الزملاء",
+      "warningActiveWorklow": "لديك طلبات قبول فعالة. التغييرات التي تجريها على الخطوات والزملاء المسؤولين ستؤثر على طلبات القبول الفعالة."
+    },
+    "denyDialog": {
+      "content": "أنت على وشك رفض البيانات، يرجى تقديم تعليق داخلي لإبلاغ الزملاء عن السبب.",
+      "header": "رفض التحديث"
+    },
+    "disableTemplate": {
+      "confirmContent": "هل أنت متأكد من تعطيل القبول؟",
+      "confirmHeader": "تعطيل القبول"
+    },
+    "files": "الملفات",
+    "header": "القبول",
+    "indicatorTargets": "أهداف المؤشر",
+    "indicatorValues": "مؤشر",
+    "initialteDataUpdate": {
+      "button": "بدء تحديث البيانات",
+      "internalComment": "تعليق داخلي يوضح سبب هذا الطلب",
+      "intervalToUpdate": "الفترة الزمنية المطلوب تحديثها ومراجعتها للموافقة",
+      "latestActual": "أحدث فترة إبلاغ فعلية",
+      "responsible": "المسؤول عن إدخال البيانات",
+      "text1": "أنت على وشك بدء تحديث البيانات وعلى إثر ذلك ستمرر هذه التغييرات إلى جميع الزملاء الآخرين في السلسلة للموافقة.",
+      "text2": "كن حذرًا في تحديد معايير الطلب ويرجى تقديم تعليق داخلي يوفر سياقًا للتحديث. سيتم عرض هذا التعليق للزملاء في سلسلة القبول فقط.",
+      "title": "بدء تحديث البيانات مع الموافقة"
+    },
+    "interval": "الفترة",
+    "intervals": {
+      "halfYear": "٦ أشهر",
+      "month": "شهر",
+      "once": "مرة واحدة",
+      "quarter": "ربع سنوي",
+      "twoWeeks": "أسبوعين",
+      "twoYears": "سنتان",
+      "week": "أسبوع",
+      "year": "سنوي"
+    },
+    "newIndicator": {
+      "createdFailed": "فشل في تشغيل القبول للمؤشر الجديد",
+      "createdSuccess": "تم تشغيل القبول للمؤشر الجديد",
+      "header": "إنشاء مؤشر جديد",
+      "name": "مؤشر جديد",
+      "settings": "إعدادات المؤشر",
+      "subheader": "ستتم مراجعة هذه البيانات للقبول من قبل الزملاء في إعدادات قبول المشروع"
+    },
+    "pageInfo": {
+      "accept": "يرجى مراجعة الحقول المميزة بالمحتوى المحدث، يمكنك إجراء تغييرات أو تعليقات. عندما تكون جاهزًا، يرجى قبول المحتوى أو رفضه.",
+      "submit": "يرجى تحديث المحتوى وتقديمه للمراجعة عندما تكون جاهزًا."
+    },
+    "responsibility": {
+      "delegateContent": "سيتم مشاركة جميع مسؤوليات تحديث وقبول ما يتعلق بهذا القطاع، بما في ذلك المؤشرات ووصف المشروع والمراحل الزمنية الرئيسية والجهات الداعمة والأهداف.",
+      "delegateFailed": "فشل في تمكين مشاركة المسؤولية",
+      "delegateHeader": "شارك مسؤولية {{type}} عن \"{{name}} \"",
+      "delegateSuccess": "تمت مشاركة المسؤولية بنجاح",
+      "deleteContent": "هل أنت متأكد من إزالة نفسك من القدرة على التحديث/القبول؟",
+      "deleteFailed": "فشل في إزالة المسؤولية",
+      "deleteHeader": "إزالة مسؤوليتك",
+      "deleteSuccess": "تمت إزالة المسؤولية بنجاح",
+      "none": "لا يوجد",
+      "table": {
+        "colleagues": "الزملاء الذين يتشاركون المسؤولية",
+        "name": "الاسم",
+        "primary": "المسؤولية الرئيسية"
+      },
+      "you": "أنت"
+    },
+    "savedChanged": "تم حفظ التغييرات",
+    "saving": "جاري الحفظ...",
+    "schedule": {
+      "description": "عند تمكين خاصية 'استخدام القبول'، سيتم إرسال إشعار إلى الزملاء المعينين لإعطاء تحديث وقبولهم.",
+      "idle": "غير نشط",
+      "intervalSchedule": "الفترة الزمنية لجدول القبول",
+      "nextStartDate": "تاريخ البدء التالي",
+      "rerunWorkflowTooltip": "ستؤدي إعادة تشغيل سير العمل إلى حذف سير العمل النشط وبدء سير عمل جديد للفترة الزمنية المحددة في حقل \"تاريخ البدء التالي\".",
+      "running": "طلب فعال",
+      "title": "جدول القبول",
+      "useAcceptance": "استخدام القبول"
+    },
+    "scheduleUpdate": "تحديث للفترة {{interval}}",
+    "snackbar": {
+      "rerunFailed": "فشل في إعادة تشغيل سير العمل",
+      "rerunSuccess": "تم إعادة تشغيل سير العمل بنجاح",
+      "submitFailed": "فشل في إرسال البيانات",
+      "submitSuccess": "تم إرسال البيانات بنجاح",
+      "updateFailed": "فشل في تحديث البيانات ، يرجى المحاولة مرة أخرى"
+    },
+    "status": {
+      "pending": "التحديث مطلوب",
+      "planned": "التاريخ المقرر: {{date}}",
+      "plannedManual": "مجدول : يدوي",
+      "rejected": "التحديث مطلوب مرة أخرى",
+      "requested": "القبول مطلوب",
+      "upToDate": "محدث"
+    },
+    "step": {
+      "addStep": "أضف خطوة",
+      "coleagues": "الأدوار/الزملاء",
+      "current": "خطوة",
+      "days": "أيام",
+      "deadline": "الموعد النهائي",
+      "deadlineHint": "الموعد النهائي لمدة يوم واحد يعني أن قبولك مستحق في نهاية اليوم الحالي، وليس بالضرورة بعد 24 ساعة. لمدة 24 ساعة كاملة، اختر موعدًا نهائيًا مدته يومين، مما يضمن وجود وقت كافٍ بعد اليوم الأول للانتهاء.",
+      "delete": "حذف",
+      "historyLog": "الوصول إلى السجل التاريخي",
+      "nextOnDenial": "الخطوة التالية في حالة الرفض.",
+      "number": "الخطوة {{order}}",
+      "order": "الترتيب",
+      "timerMode": "وضع المؤقت",
+      "timerModeHint": "عند تبديل المستخدمين في هذه الخطوة ، لا يمكنهم رفض المحتوى أو قبوله. بدلاً من ذلك ، عند انتهاء الوقت المحدد ، ستنتقل عملية القبول تلقائيًا إلى الخطوة التالية.."
+    },
+    "submitAllDialog": {
+      "content": "هل تؤكد إرسال كافة التحديثات؟",
+      "header": "إرسال كافة التحديثات"
+    },
+    "submitDialog": {
+      "content": "هل تؤكد إرسال التحديث؟",
+      "header": "إرسال التحديث"
+    },
+    "table": {
+      "deadline": "الموعد النهائي الخاص بك",
+      "deniedData": "{{name}} رفض البيانات",
+      "details": "سبب الرفض",
+      "interval": "الفترة الزمنية",
+      "name": "الاسم",
+      "newIndicator": "إنشاء مؤشر جديد",
+      "period": "الفترة",
+      "shareAcceptance": "مشاركة المسؤولية",
+      "status": "الحالة"
+    },
+    "tabs": {
+      "allIndicators": "كل المؤشرات",
+      "allPrograms": "كل البرامج",
+      "allProjects": "كل المشاريع",
+      "allSectors": "جميع القطاعات",
+      "externalComments": "التعليقات الخارجية",
+      "historyLog": "سجل التاريخ",
+      "indicatorValues": "قيمة المؤشر",
+      "needAttention": "يحتاج إلى اهتمامك"
+    },
+    "targetAcceptance": {
+      "description": "يمكن تحديث جميع أهداف هذا المؤشر للقبول في جدول منفصل عن نقاط البيانات الفعلية.",
+      "title": "قبول الهدف"
+    },
+    "toBeAdded": "سيتم اضافتها",
+    "toBeDeleted": "سيتم حذفها",
+    "updateComment": "تحديث / تعليق",
+    "warningWorkflowToManual": "تحذير! تحويل طريقة إدخال البيانات إلى طريقة يدوية سيؤدي إلى إلغاء جميع مراحل القبول الحالية. هل أنت متأكد أنك تريد المتابعة؟"
+  },
+  "activityLog": {
+    "actions": {
+      "acceptedWorkflowStep": "قبول التحديث",
+      "addedColleague": "إضافة زميل",
+      "addedDatasetExternalComment": "إضافة تعليق على مجموعة بيانات خارجية",
+      "addedExternalComment": "إضافة تعليق خارجي",
+      "addedInternalComment": "إضافة تعليق داخلي",
+      "createdDataset": "إنشاء مجموعة بيانات",
+      "createdWorkflow": "مسار العمل المُنشأ",
+      "delegatedWorkflowStep": "مشاركة المسؤولية",
+      "deletedColleague": "حذف الزميل",
+      "deletedDataset": "حذف مجموعة بيانات",
+      "deniedWorkflowStep": "رفض التحديث",
+      "rerunWorkflow": "إعادة تشغيل القبول",
+      "submittedWorkflowStep": "طلب القبول",
+      "undelegatedWorkflowStep": "إزالة مسؤولية القبول",
+      "updatedColleague": "تحديث الزميل",
+      "updatedDataset": "تحديث مجموعة بيانات",
+      "updatedWorkflowTemplate": "تحديث قالب القبول",
+      "updatedWorkflowTemplateStep": "تحديث خطوة القبول"
+    },
+    "content": {
+      "acceptedWorkflowStep": "وافق المستخدم على التغييرات في {{type}}",
+      "addedColleague": "الزميل المضاف {{title}} ({{fullName}})",
+      "createdDataset": "تم إنشاء المؤشر {{datasetName}}",
+      "createdWorkflow": "قام المستخدم بإنشاء مسار عمل يدويًا من نوع {{type}} مع  التعليق \"{comment}}\"",
+      "delegatedWorkflowStepDeleted": "تمت إزالة المسؤولية المشتركة من {{fullName}} في الخطوة {{order}}",
+      "delegatedWorkflowStepUpdated": "المسؤولية المشتركة لـ {{fullName}} في الخطوة {{order}}",
+      "deletedColleague": "تم حذف الزميل {{title}} ({{fullName}})",
+      "deletedDataset": "تم حذف مجموعة البيانات {{datasetName}}",
+      "deniedWorkflowStep": "رفض المستخدم التغييرات التي تم إجراؤها على {{type}} مع التعليق \"{{comment}}\"",
+      "noChanges": "لا توجد تغييرات",
+      "rerunWorkflow": "إعادة تشغيل جدول قبول {{type}}: الفاصل الزمني لجدول القبول - {{interval}} ، تاريخ البدء التالي - {{nextStartDate}}",
+      "submittedWorkflowStep": "قام المستخدم بإجراء تغييرات على {{type}}",
+      "submittedWorkflowStepWithComment": "قام المستخدم بإجراء التغييرات على {{type}} مع التعليق \"{{comment}}\"",
+      "undelegatedWorkflowStep": "أزال {{fullName}} نفسه من مسؤوليات القبول في الخطوة {{order}}",
+      "updatedColleague": "الزميل المحدث {{title}} ({{fullName}})",
+      "updatedDataset": "مجموعة البيانات المحدثة {{datasetName}}",
+      "updatedWorkflowTemplate": "تم تغيير جدول القبول {{type}}: قبول الاستخدام - {{isActive}} ، الفاصل الزمني لجدول القبول - {{interval}} ، تاريخ البدء التالي - {{nextStartDate}}",
+      "updatedWorkflowTemplateStepDeleted": "طلب القبول المحذوف {{order}}: الزميل - {{fullName}} ، الموعد النهائي - {{daysToComplete}} ، الوصول إلى السجل التاريخي - {{historyLogAccess}}",
+      "updatedWorkflowTemplateStepUpdated": "تحديث أمر القبول {{order}}: الزميل - {{fullName}} ، الموعد النهائي - {{daysToComplete}} ، الوصول إلى السجل التاريخي - {{historyLogAccess}}",
+      "withChanges": "مع التغييرات"
+    },
+    "historyLogs": "سجلّ الفترات السّابقة",
+    "internalComment": "تعليق داخلي",
+    "table": {
+      "action": "الاجراء",
+      "content": "المحتوى",
+      "date": "التاريخ\\الوقت",
+      "user": "المستخدم"
+    }
+  },
+  "analysis": {
+    "comparisonsAnalysis": "المقارنات",
+    "conclusionAnalysis": "ملخص",
+    "detailedAnalysis": "التحليل الشامل",
+    "mfuAnalysis": {
+      "subtitle": "هذا التحليل مطلوب من مسؤول القطاع باللغتين الإنجليزية والعربية وسيكون مرئيًا خارجيًا للمستخدمين بعد الحصول على إذن.",
+      "title": "تحليل إدارة المراقبة والمتابعة"
+    },
+    "recommendationsAnalysis": "توصيات الأمانة العامة للمجلس الأعلى  للشؤون الاقتصادية والاستثمار",
+    "shortAnalysis": "معلومات إضافية",
+    "sroAnalysis": {
+      "inputLabel": "مقارنات، توصيات، وملخصات",
+      "subtitle": "هذا التحليل الداخلي مطلوب من الموظف المسؤول باللغتين الإنجليزية والعربية وهو مرئي فقط للمستخدمين في سلسلة القبول هذه.",
+      "title": "تحليل الموظف المسؤول"
+    }
+  },
+  "attachments": {
+    "deleteContent": "هل أنت متأكد أنك تريد حذف \"{{fileName}}\"؟",
+    "deleteHeader": "حذف الملف"
+  },
+  "card": {
+    "champion": {
+      "championName": "اسم مسؤول القطاع"
+    },
+    "chartCard": {
+      "actual": "الفعلي: {{baseline}}",
+      "aggregation": {
+        "average": "المتوسط",
+        "none": "لا يوجد",
+        "sum": "المجموع"
+      },
+      "baseline": "خط الأساس",
+      "filter": {
+        "annual": "سنوي",
+        "default": "{{interval}}",
+        "monthly": "شهري",
+        "quarterly": "ربع سنوي",
+        "yoym": "شهري على أساس سنوي",
+        "yoyq": "ربعي على أساس سنوي",
+        "ytd": "منذ مطلع العام"
+      },
+      "lastTarget": "هدف {{interval}} ",
+      "latestData": "أحدث البيانات: {{reportingPeriod}}",
+      "noValue": "بدون قيمة",
+      "pp": "نقطة مئوية",
+      "ragCalculation": {
+        "default": "مجموعة البيانات الافتراضية",
+        "differential": "تمييز",
+        "none": "لا يوجد",
+        "previousYear": "العام السابق حتى تاريخه",
+        "yoy": "على أساس سنوي"
+      },
+      "target": "الأداء المستهدَف: {{target}}",
+      "titlePlaceholder": "عنوان البطاقة"
+    },
+    "colleagueDetails": {
+      "user": "المستخدم"
+    },
+    "combinedChart": {
+      "primaryDataset": "مجموعة البيانات الرئيسية"
+    },
+    "common": {
+      "actual": "الأداء الفعلي",
+      "actualFor": "الفعلي: {{interval}}",
+      "actualForHardcoded": "الفعلي: ",
+      "actualVsTarget": "الأداء الفعلي مقابل الأداء المستهدف",
+      "aggregation": "التجميع",
+      "baselinePerformance": "أداء خط الأساس",
+      "chartType": "نوع الرسم البياني",
+      "complete": "مكتمل",
+      "dataSource": "مصدر البيانات",
+      "defaultTimespan": "الفترة الزمنية الافتراضية",
+      "difference": "الفرق",
+      "drilldownLink": "صفحة التنقل للأسفل",
+      "endDate": "تاريخ الانتهاء",
+      "excludeTargets": "استثناء الأهداف",
+      "fullAnalysis": "تحليل مؤشر {{title}}",
+      "interval": "الفترة: ",
+      "intervalAggregation": "تجميع الفترات: {{aggregation}}",
+      "intervalsChange": {
+        "biweekly": "تغير كل اسبوعين",
+        "mom": "تغير شهري",
+        "qoq": "تغير ربعي",
+        "weekly": "تغير أسبوعي",
+        "yoy": "تغير سنوي",
+        "yoym": "تغير شهري على أساس سنوي",
+        "yoyq": "تغير ربعي على أساس سنوي"
+      },
+      "noTargetProvided": "لا توجد مستهدفات",
+      "noTimespanData": "لا توجد بيانات متاحة للفلتر المحدد، حيث يتم عرض جميع البيانات بدلاً من ذلك.",
+      "overlayText": "تراكب",
+      "pageLink": "ربط مع صفحة",
+      "percentChange": "نسبة الانحراف",
+      "pickColor": "اختر اللون",
+      "ppFull": "نسبة الانحراف",
+      "prefix": "بادئة",
+      "previous": "الفترة السابقة",
+      "previousFor": "الفترة السابقة: {{interval}}",
+      "ragCalculation": "حساب تصنيف RAG",
+      "selectUser": "اختيار مستخدم",
+      "shortAnalysis": "معلومات إضافية",
+      "shortAnalysisMediumTable": "التحليل",
+      "showIcon": "إظهار الأيقونة",
+      "showTotalLine": "عرض الخط الكلي",
+      "showYTDColumns": "إظهار أعمدة YTD في جدول البيانات",
+      "source": "المصدر: {{source}}",
+      "startDate": "تاريخ البدء",
+      "staticBaseline": "جعل خط الأساس ثابتًا",
+      "staticTarget": "اجعل الهدف ثابتًا",
+      "subtitle": "العنوان الفرعي",
+      "suffix": "لاحقة",
+      "tags": "وسم",
+      "target": "الأداء المستهدَف",
+      "targetFor": "هدف {{interval}}",
+      "timespan": "الفترة الزمنية المعروضة",
+      "title": "العنوان",
+      "titlePlaceholder": "عنوان البطاقة",
+      "useDiffElements": "إظهار فرق القيمة",
+      "useInvertedChart": "استخدام المحور المعكوس",
+      "user": "المستخدم",
+      "versusTarget": "مقابل هدف {{interval}}",
+      "visibleTimespans": "الفترات المرئية في صفحة التنقل للأسفل",
+      "visibleTimespansAll": "جميع الأجزاء الداخلية",
+      "ytd": "منذ مطلع العام",
+      "ytdChange": "التغير منذ مطلع العام"
+    },
+    "differentialChart": {
+      "decrease": "نقصان",
+      "increase": "زيادة",
+      "pp": "{{value}}نقطة النسبة المئوية",
+      "progressType": "نوع التقدم"
+    },
+    "entitiesOverallMilestones": {
+      "entities": "المشاريع/البرامج",
+      "progress": "منجز بنسبة %{{progress}}",
+      "projectName": "اسم المشروع",
+      "selectPage": "حدد الصفحة"
+    },
+    "entityInfo": {
+      "champion": "مسؤول القطاع",
+      "datasets": "مجموعات البيانات",
+      "kpi": "مؤشر الأداء الرئيسي",
+      "practicalCompletion": "مستوى الانجاز في العمل",
+      "showInternalNoteTooltip": "اعرض الملاحظة الداخلية",
+      "updated": "آخر تحديث:"
+    },
+    "indicatorAnalysis": {
+      "analysis": "التحليل",
+      "baseline": "خط الأساس",
+      "commentEmpty": "لا توجد تعليقات",
+      "noBaseline": "لا يوجد خط أساس",
+      "noPrevious": "لا توجد قيمة سابقة",
+      "noTarget": "لا توجد قيمة مستهدفة",
+      "noValue": "لا توجد قيمة متاحة",
+      "previous": "السابق",
+      "target": "هدف",
+      "useRankingView": "استخدم التصنيف",
+      "value": "الفعلي"
+    },
+    "mediumTable": {
+      "column1": "سنة خط الأساس",
+      "column2": "السنة المستهدفة",
+      "column3": "أخر سنة مستهدفة",
+      "datasets": "مجموعات البيانات",
+      "datasetsOptions": "خيارات مجموعة البيانات",
+      "note": "ملاحظة",
+      "showSecondTarget": "إظهار هدف ثاني",
+      "showSourceAsTooltip": "إظهار المصدر في التلميح",
+      "source": "المصدَر"
+    },
+    "milestone": {
+      "completed": "منجز بنسبة %{{percent}}",
+      "interval": "{{startDate}} ← {{endDate}}",
+      "intervalSelect": "الفترة",
+      "intervals": {
+        "daily": "يومي",
+        "monthly": "شهري",
+        "quarterly": "ربع سنوي",
+        "weekly": "أسبوعيا",
+        "yearly": "سنوياً"
+      },
+      "notStarted": "لم يتمّ البدء",
+      "quarterAbbr1": "الربع الأول",
+      "quarterAbbr2": "الربع الثاني",
+      "quarterAbbr3": "الربع الثالث",
+      "quarterAbbr4": "الربع الرابع",
+      "selectMilestones": "المراحل",
+      "weekAbbr": "الأسبوع {{week}}"
+    },
+    "pageButton": {
+      "dates": "تواريخ البدء / الانتهاء",
+      "displaySecondaryPlace": "عرض مكان ثانوي",
+      "displayShowContent": "عرض المحتوى",
+      "end": "الانتهاء:",
+      "pageUnavailable": "هذه الصفحة غير متوافرة بعد",
+      "showProgressBar": "إظهار شريط التقدم",
+      "showStatus": "عرض الحالة",
+      "showSubtitle": "عرض العنوان الفرعي",
+      "stageToMonitoring": "المرحلة للمراقبة",
+      "start": "البدء:",
+      "status": "الحالة",
+      "useAsButton": "استخدم العنصر كزرّ",
+      "useRagStatus": "استخدم الحالة الملونة"
+    },
+    "photoGroup": {
+      "progress": "التقدم : {{progressPercent}}٪ مكتمل",
+      "selectedPhotoGroup": "مجموعة الصور",
+      "takenAt": "تم التقاطها في {{takenOn}}"
+    },
+    "projectSummary": {
+      "endDate": "تاريخ الانتهاء",
+      "kpi": "مؤشرات الأداء الرئيسية",
+      "latestData": "أحدث البيانات: {{data}}",
+      "source": "المصدر: {{source}}",
+      "startDate": "تاريخ البدء"
+    },
+    "sectionHeading": {
+      "qualityOfPlanning": {
+        "and": "{{first}} and {{second}}",
+        "description1": "يتم تقييم جودة التخطيط بناءً على مدى مساهمة الخطة إلى مؤشرات التنويع الاقتصادي وجودة مشاريعها (من حيث الأثر الاقتصادي المحتمل وتوضيح الأدوار وآلية التفيذ، والإطار الزمني، والعائد على الخزينة، وغيرها)",
+        "description2": "يتم تقييم مستوى الاداء المرتبط بالمؤشرات القطاعية من خلال معدل مرجع للاداء في المؤشرات القطاعية الرئيسية",
+        "greenDescription": "في المسار المخطط له أو أفضل",
+        "orangeDescription": "انحراف بنسبة 5-10% عن المسار المخطط له",
+        "redDescription": "انحراف بنسبة أكثر من 10% عن المسار المخطط له",
+        "title1": "جودة التخطيط",
+        "title2": "مستوى الاداء المرتبط بالمؤشرات القطاعية",
+        "tooltipTitle": "نبذة عن حالة القطاع",
+        "yellowDescription": "انحراف  بنسبة 0-5% عن المسار المخطط له"
+      },
+      "stageToMonitoring": {
+        "advancedPlanning": {
+          "content": "تم اعتماد خطة القطاع الاقتصادية الأولية وجاري التنسيق مع الجهات ذات الصلة لتحديد البرامج والمشاريع الاقتصادية للقطاع.",
+          "title": "التخطيط المتقدم"
+        },
+        "earlyPlanning": {
+          "content": "جاري العمل على تطوير خطة القطاع الاقتصادية للعرض في اجتماع المجلس الأعلى للشؤون الاقتصادية والاستثمار.",
+          "title": "التخطيط المبكر"
+        },
+        "midPlanning": {
+          "content": "تم عرض خطة القطاع الاقتصادية في اجتماع المجلس الأعلى للشؤون الاقتصادية والاستثمار، وجاري العمل على تحديد المسارات للمؤشرات الاقتصادية.",
+          "title": "التخطيط المتوسط"
+        },
+        "monitoring": {
+          "content": "تم اعتماد خطة القطاع النهائية والوصول لمرحلة المراقبة والمتابعة الدورية.",
+          "title": "المراقبة والمتابعة"
+        },
+        "notStarted": {
+          "content": "لم يبدأ أي تخطيط.",
+          "title": "لم يبدأ بعد"
+        },
+        "title": "المرحلة الحالية للمراقبة والمتابعة"
+      },
+      "tooltip": {
+        "qualityOfPlanning": "جودة التخطيط",
+        "stageToMonitoring": "المرحلة للمراقبة",
+        "title": "إظهار تلميح الأداة"
+      }
+    },
+    "simpleValue": {
+      "mode": {
+        "combo": "رسم بياني مركب",
+        "single": "رسم بياني قياسي ",
+        "title": "وضع"
+      }
+    },
+    "smallChart": {
+      "valuePlaceholder": "تحديد القيمة"
+    },
+    "tooltip": {
+      "actualFor": "الفعلي {{interval}}:",
+      "analysis": "التحليل",
+      "baseline": "خط الأساس ",
+      "comments": "التعليقات",
+      "latestData": "أحدث البيانات",
+      "openDataset": "افتح مجموعة البيانات",
+      "source": "المصدر: {{source}}",
+      "targetFor": "هدف {{interval}}"
+    }
+  },
+  "chartLegend": {
+    "and": "{{first}} و {{second}}",
+    "description": "يعتمد التقييم على نسبة الانحراف بين الأداء الفعلي والمسار المخطط (نقطة البيانات السابقة إذا لم يكن هناك هدف محدّد)",
+    "greenDescription": "في المسار المخطط له أو أفضل",
+    "orangeDescription": "انحراف بنسبة 5-10% عن المسار المخطط له",
+    "redDescription": "انحراف بنسبة أكثر من 10% عن المسار المخطط له",
+    "title": "مفتاح الرسم البياني",
+    "yellowDescription": "انحراف  بنسبة 0-5% عن المسار المخطط له"
+  },
+  "combinationChart": {
+    "actualPerformance": "الأداء الفعلي",
+    "targetPerformance": "الأداء المستهدَف"
+  },
+  "comments": {
+    "addComment": "إضافة تعليق",
+    "comment": "تعليق",
+    "comments": "تعليقات",
+    "commentsCount": "{{count}} تعليقات",
+    "commentsCount_0": "0 تعليق",
+    "commentsCount_1": "تعليق واحد",
+    "commentsCount_2": "تعليقان",
+    "commentsCount_3": "ثلاثة تعليقات",
+    "commentsCount_4": "أربعة تعليقات",
+    "commentsCount_5": "خمسة تعليقات",
+    "delete": "احذف التعليق",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف التعليق؟",
+    "deleted": "تم حذف التعليق",
+    "edit": "تحرير التعليق",
+    "external": "خارجي",
+    "forLeadership": "للقيادة العليا",
+    "internal": "داخلي",
+    "internalComments": "التعليقات الداخلية",
+    "pinForLeadership": "ربط من أجل اطّلاع القيادة",
+    "placeholder": "تعليقك...",
+    "updateComment": "تحديث التعليق",
+    "updated": "تم تحديث التعليق"
+  },
+  "common": {
+    "actions": {
+      "accept": "قبول",
+      "acceptAll": "قبول الكل",
+      "actions": "الإجراءات",
+      "applyChanges": "تطبيق التغييرات",
+      "archive": "أرشفة",
+      "back": "رجوع",
+      "cancel": "إلغاء",
+      "change": "تغير",
+      "confirm": "تأكيد",
+      "create": "إنشاء",
+      "delete": "حذف",
+      "deny": "رفض",
+      "download": "تحميل",
+      "filterByKeyword": "تصفية حسب الكلمة المفتاحية",
+      "less": "رؤية أقل",
+      "more": "رؤية المزيد",
+      "proceed": "تقدم",
+      "remove": "إزالة",
+      "reset": "إعادة ضبط",
+      "restore": "استعادة",
+      "retry": "حاول مرة أخرى",
+      "save": "حفظ",
+      "saveChanges": "احفظ التغييرات",
+      "search": "بحث",
+      "selectAll": "اختيار الكل",
+      "submit": "ارسال",
+      "submitAll": "إرسال الكل",
+      "unarchive": "إلغاء الأرشفة",
+      "updateAll": "تحديث الكل"
+    },
+    "addTag": "اضافة \"{{tag}}\"",
+    "analysis": "التحليل",
+    "attachFile": "أرفاق ملف",
+    "attachFiles": "إرفاق ملفّات",
+    "datasetName": "مجموعة البيناتا",
+    "date": "التاريخ",
+    "drilldownPage": "صفحة التنقل للأسفل",
+    "empty": "فارغ",
+    "fileSize": {
+      "B": "{{fileSize}}بايت",
+      "GB": "{{fileSize}}جيجا بايت",
+      "MB": "{{fileSize}}ميجا بايت",
+      "kB": "{{fileSize}}كيلو بايت"
+    },
+    "files": "{{size}} ملف",
+    "noData": "لا توجد بيانات لعرضها",
+    "noDataProvided": "لا توجد بيانات مزودة",
+    "off": "تشغيل",
+    "on": "إيقاف",
+    "projectNotStarted": "لم يبدأ المشروع بعد",
+    "publishedDate": "تم النشر في {{date}}",
+    "sortBy": {
+      "newest": "الأحدث",
+      "oldest": "الأقدم"
+    },
+    "statusNotAvailable": "الحالة ليست متاحة بعد",
+    "table": {
+      "itemCounter": "{{min}} - {{max}} من {{total}}",
+      "rowsPerPage": "عدد الصفوف في الصفحة:",
+      "singleItemCounter": "{{current}} من {{total}}"
+    },
+    "unknownDataset": "مجموعة بيانات غير معروفة",
+    "unknownEntity": "جهة غير معروفة",
+    "unknownPage": "صفحة غير معروفة",
+    "validation": {
+      "date": "يجب أن تكون القيمة تاريخًا",
+      "email": "يجب أن تكون القيمة عنوان بريد إلكتروني فعال",
+      "endAfterStartDate": "يجب أن يكون تاريخ الانتهاء بعد تاريخ البدء",
+      "lowercaseIsRequired": "مطلوب حرف صغير",
+      "max": "{{field}} يجب أن يكون أقل من {{value}}",
+      "maxItems": "يجب أن يحتوي الحقل {{field}} على أقل من أو يساوي ${max} من العناصر",
+      "maxLength": "الحد الأقصى لطول {{field}} هو ${max}",
+      "maxWords": "الحد الأقصى لعدد الكلمات المسموح ادخالها في حقل {{field}} هو ${max} كلمة",
+      "min": " {{field}} يجب أن يكون أعلى من {{value}}",
+      "number": "يجب أن تكون القيمة رقماً",
+      "numberRequired": "مطلوب رقم",
+      "oneOf": "يجب أن تكون القيمة واحدة من {{values}}",
+      "passwordShort": "كلمة المرور قصيرة جدا",
+      "phone": "يجب أن تكون القيمة رقم هاتف فعال",
+      "required": "{{field}} مطلوب",
+      "selectedDateAfterDate": "يجب أن يكون التاريخ المحدد بعد {{date}}",
+      "selectedDateBeforeDate": "يجب أن يكون التاريخ المحدد قبل {{date}}",
+      "text": "يجب أن تكون القيمة نصّاً",
+      "uppercaseIsRequired": "مطلوب حرف كبير",
+      "uuid": "القيمة غير صالحة {{field}}",
+      "whitespaceNotAllowed": "لا يمكن أن تبدأ كلمة المرور أو تنتهي بمسافة"
+    },
+    "view": {
+      "connectionError": "الخدمة غير متوافرة، يرجى المحاولة مرة أخرى في وقت لاحق",
+      "empty": "هذه الصفحة فارغة",
+      "error": "خطأ في تحميل الصفحة",
+      "loading": "جاري التحميل",
+      "noComments": "لا توجد تعليقات",
+      "noResults": "لا توجد نتائج"
+    }
+  },
+  "config": {
+    "datasets": {
+      "addTargets": "إضافة أهداف لمؤشرات الأداء",
+      "chartTypes": {
+        "area": "مساحة",
+        "line": "خطي",
+        "pie": "مخطط دائري",
+        "simpleBar": "شريطي",
+        "simpleColumn": "عمودي",
+        "simpleColumnTarget": "عمود رأسي (بسيط)",
+        "stackedArea": "مساحي مكدس",
+        "stackedBar": "عامودي مكدس",
+        "stackedColumn": "أعمد مكدسة"
+      },
+      "delete": "حذف",
+      "description": "الوصف",
+      "editData": "تعديل البيانات",
+      "editSettings": "تعديل الإعدادات",
+      "entry": "إدخال البيانات",
+      "interval": "الفترة",
+      "intervals": {
+        "biweekly": "كل أسبوعين",
+        "monthly": "شهري",
+        "quarterly": "ربع سنوي",
+        "weekly": "أسبوعياً",
+        "yearly": "سنوياً"
+      },
+      "modes": {
+        "manual": "يدويّا",
+        "workflow": "القبول المجدول",
+        "workflowUnscheduled": "القبول غير المجدول"
+      },
+      "name": "اسم مجموعة البيانات",
+      "nextUpdate": "التحديث التالي",
+      "ragModes": {
+        "complex": "لا توجد أهداف - قيم المجموعة في كل فترة",
+        "complexTarget": "الأهداف - تقسيم القيم الفعلية إلى مجموعات لكل فترة زمنية",
+        "complexTargetTooltip": "يمكن أن تحتوي مجموعة البيانات على مجموعات أو سلاسل متعددة. لكل فترة زمنية، وهناك هدف تتم مقارنته بـِ \"قيمة الأداء الفعلي\" لحساب حالة المؤشر.",
+        "complexTooltip": "يمكن أن تحتوي مجموعة البيانات على مجموعات أو سلاسل متعددة، ولا يمكن تطبيق أي حالة على هذا المؤشر.",
+        "manual": "الحالة اليدوية - قيمة فعلية واحدة لكل فترة زمنية",
+        "manualTooltip": "ستحتوي مجموعة البيانات على خيار الحالة لكل فترة يقوم المستخدِم بتحديدها يدويّا، ولا يمكن تخزين أي أهداف في مجموعة البيانات هذه.",
+        "multiLevel": "لا توجد أهداف - قيم المجموعة والمجموعة الفرعية لكل فترة زمنية",
+        "target": "الأهداف - قيمة فعلية واحدة لكل فترة زمنية",
+        "outlook": "  النظرة المستقبلية - قيمة فعلية واحدة لكل فترة زمنية",
+        "targetTooltip": "ستحتوي مجموعة البيانات على هدف لكل فترة زمنية والتي عند مقارنتها بالقيمة \"الفعلية\" ستَحسِب حالة المؤشر. ولا يمكن أن تكون هناك عمليات تجميع في البيانات.",
+        "valueOnly": "لا توجد أهداف - قيمة فعلية واحدة لكل فترة زمنية"
+      },
+      "rerunIndicatorTargetWorkflow": "أعد تشغيل قبول الهدف",
+      "rerunIndicatorValueWorkflow": "أعد تشغيل قبول القيمة",
+      "updatedAt": "آخر تحديث",
+      "valueModes": {
+        "plain": "عادي",
+        "yoy": "Year on year"
+      },
+      "workflowDetails": "معلومات سير العمل"
+    },
+    "decisions": {
+      "actions": "الإجراءات",
+      "addDecision": "إضافة قرار",
+      "allFiles": "كل الملفات",
+      "allMeetings": "كل الاجتماعات",
+      "allOwners": "جميع الملاك",
+      "attachments": "المرفقات",
+      "date": "التاريخ",
+      "dateColumn": "الاجتماع {{quarter}} للمجلس الأعلى في {{year}}",
+      "dateGroup": "{{year}} - {{quarter}} اجتماع المجلس الأعلى",
+      "decision": "القرار",
+      "delete": "حذف",
+      "dueDate": "الموعد النهائي",
+      "dueDateGroup": "تاريخ الاستحقاق: {{date}}",
+      "editSettings": "تحرير السّطر",
+      "generalReport": "تقرير عام",
+      "header": "قرارات المجلس",
+      "owner": "الجهة المسؤولة",
+      "quarter1": "الأول",
+      "quarter2": "الثاني",
+      "quarter3": "الثالث",
+      "quarter4": "الرابع",
+      "quarterlyReport": "تقرير فصلي",
+      "stats": {
+        "neutral": "حالة القرارات",
+        "noUnresolved": "لا توجد قرارات لم يتم حلّها",
+        "statusOfResolved": "{{number}} من القرارات تمّ حلّها"
+      },
+      "status": "الحالة",
+      "topic": "الموضوع",
+      "update": "تحديث",
+      "updatedAt": "آخر تحديث",
+      "updatedAtGroup": "آخر تحديث: {{date}}"
+    },
+    "departments": {
+      "addDepartment": "إضافة إدارة",
+      "delete": "حذف",
+      "description": "الوصف",
+      "editSettings": "تعديل الإعدادات",
+      "header": "الإدارات",
+      "logo": "الشعار",
+      "name": "الاسم",
+      "updatedAt": "آخر تحديث"
+    },
+    "documents": {
+      "delete": "حذف",
+      "description": "الوصف",
+      "editSettings": "تعديل الإعدادات",
+      "name": "الاسم",
+      "uploadedAt": "تم تحميل الملف",
+      "visibility": {
+        "default": "ظاهر لجميع الأشخاص الذين لديهم إذن الصفحة",
+        "hideFromDashboard": "إخفاء من لوحة المتابعة",
+        "hideFromLeadership": "إخفاء عن القيادة",
+        "title": "الرؤية"
+      }
+    },
+    "entities": {
+      "addEntity": "إضافة جهة جديدة",
+      "datasets": "مجموعات البيانات",
+      "delete": "حذف",
+      "description": "وصف",
+      "duplicate": "انشاء نسخة من الجهة",
+      "edit": "الإعدادات",
+      "entity": "الجهة",
+      "exportAudit": "تصدير سجل التدقيق",
+      "exportWorkflowAudit": "تصدير سجل سير العمل",
+      "header": "الجهات",
+      "mode": "إدخال البيانات",
+      "name": "اسم الجهة",
+      "updatedAt": "آخر تحديث"
+    },
+    "entity": {
+      "acceptance": {
+        "data": "قبول البيانات",
+        "entity": "قبول الجهة",
+        "program": "قبول البرنامج",
+        "project": "قبول المشروع",
+        "sector": "قبول القطاع"
+      },
+      "acceptanceSettings": "إعدادات القبول",
+      "addColleague": "إضافة زميل آخر",
+      "addDocument": "إضافة مستند",
+      "addHighlight": "إضافة إنجاز",
+      "addIndicator": "إضافة مؤشر",
+      "addMilestone": "أضف مرحلة رئيسية",
+      "addOverallTimeline": "أضف الجدول الزمني العام",
+      "addPhotoGroup": "إضافة مجموعة صور",
+      "addSupportingEntity": "إضافة جهة داعمة",
+      "addWorkflow": "إضافة سير عمل",
+      "colleague": {
+        "addColleague": "إضافة زميل",
+        "coleague": "زميل",
+        "createFailed": "فشل إنشاء الزميل",
+        "created": "تم إنشاء الزميل بنجاح",
+        "delete": "حذف",
+        "deleteContent": "هل أنت متأكد أنك تريد حذف ”{{title}}”؟",
+        "deleteFailed": "فشل حذف الزميل",
+        "deleteHeader": "حذف الزميل",
+        "deleted": "تم حذف الزميل بنجاح",
+        "description": "المستخدمون المسؤولون عن مراجعة محتوى المشروع",
+        "role": "دور",
+        "saveFailed": "فشلٌ في تحديث الزميل",
+        "saved": "تم تحديث الزميل بنجاح",
+        "title": "الزملاء المسؤولين"
+      },
+      "colleagueDetails": "تفاصيل الزميل",
+      "createDialog": {
+        "created": "تم إنشاء ”{{entityName}}”",
+        "header": "جهة جديدة"
+      },
+      "datasets": "مجموعات البيانات",
+      "defaultDatasetInterval": "الفترة الزمنية الافتراضية لمجموعة البيانات",
+      "department": "الادارة (مسؤول القطاع)",
+      "description": "الوصف",
+      "details": {
+        "entity": "تفاصيل الجهة",
+        "program": "تفاصيل البرنامج",
+        "project": "تفاصيل المشروع",
+        "sector": "تفاصيل القطاع"
+      },
+      "documents": "ملفات",
+      "endDate": "تاريخ الانتهاء",
+      "entityType": "نوع الجهة",
+      "hasPriority": "ذات أولوية",
+      "header": "الإعدادات",
+      "highlights": "أبرز الإنجازات",
+      "indicators": "المؤشرات",
+      "isConstructionProject": "مشروع انشائي ",
+      "milestones": "المراحل",
+      "mode": "إدخال البيانات: ",
+      "modeManual": "يدويّا",
+      "modeWorkflow": "القبول",
+      "name": "الاسم",
+      "newDataset": "إضافة مجموعة بيانات",
+      "newWorkflow": "إضافة سير عمل",
+      "parent": "الجهة الرئيسية",
+      "photoGroups": "مجموعة الصور",
+      "photos": "صور",
+      "ragStatus": "حالة {{entityType}}",
+      "saved": "تمّ الحفظ",
+      "startDate": "تاريخ البدء",
+      "supportingEntities": "الجهات الداعمة",
+      "type": {
+        "entity": "جهة عامة",
+        "program": "البرنامج",
+        "project": "المشروع",
+        "sector": "القطاع"
+      }
+    },
+    "highlights": {
+      "comments": "التعليقات",
+      "delete": "حذف",
+      "editSettings": "تحرير إنجاز",
+      "icon": "الأيقونة",
+      "name": "الاسم",
+      "updatedAt": "آخر تحديث"
+    },
+    "milestones": {
+      "delete": "حذف",
+      "description": "الوصف",
+      "editSettings": "تحرير مرحلة رئيسية",
+      "endDate": "تاريخ الانتهاء",
+      "entity": "الجهة الداعمة",
+      "name": "الاسم",
+      "owner": "صاحب المشروع",
+      "progressPercent": "تقدم (٪)",
+      "role": "دور الجهة الداعمة",
+      "startDate": "تاريخ البدء",
+      "status": "الحالة",
+      "updatedAt": "تاريخ التعديل"
+    },
+    "navigation": {
+      "departments": "الإدارات",
+      "entities": "جهات",
+      "pages": "الصفحات",
+      "roles": "أدوار المستخدمين",
+      "users": "المستخدِمون"
+    },
+    "pages": {
+      "addPage": "إضافة صفحة جديدة",
+      "delete": "حذف",
+      "description": "وصف الصفحة",
+      "duplicate": "إنشاء نسخة من الصفحة",
+      "edit": "إعدادات الصفحة",
+      "header": "الصفحات",
+      "name": "اسم الصفحة",
+      "permissions": "صلاحيات المستخدم",
+      "updatedAt": "تاريخ التعديل",
+      "visit": "زيارة  الصفحة"
+    },
+    "permissions": {
+      "allowed": "مسموح به",
+      "chartsAlerts": "تنبيهات الرسوم البيانية",
+      "comparison": "شاهد المقارنة",
+      "conclusion": "شاهد المخلص",
+      "contributeToEntityInManualMode": "الإسهام يدويّا في الجهات ومجموعات البيانات",
+      "createDecision": "إنشاء قرارات",
+      "createDeleteRole": "إنشاء الأدوار وحذفها",
+      "createDeleteUser": "إنشاء وحذف المستخدِمين",
+      "createEntity": "إنشاء جهات",
+      "createPage": "إنشاء صفحة",
+      "deleteDecision": "حذف القرارات",
+      "detailedAnalysis": "عرض تحليل شامل وتعليق عام على الأحداث الهامة للمشروعات ذات الأولوية",
+      "downloadQuarterlyLeadershipReport": "تحميل تقرير القيادة ربع السنوي",
+      "editPage": "تحرير الصفحة",
+      "editWorkflowIndicatorValue": "تعديل قيمة المؤشر في سير العمل ",
+      "editWorkflowMFUAnalysis": "تعديل تحليل الموظف المسؤول في سير العمل",
+      "editWorkflowSROAnalysis": "تعديل تحليل إدارة المراقبة والمتابعة في سير العمل",
+      "isLeadership": "إذن القيادة",
+      "modifyDecision": "تحرير القرارات",
+      "modifyEntity": "تعديل وحذف الجهات",
+      "modifyRole": "تعديل",
+      "modifyUser": "تحديث المستخدمين",
+      "modifyUserRoles": "تحديث أدوار المستخدم",
+      "notAllowed": "غير مسموح به",
+      "notifications": "الإشعارات",
+      "overrideEntityWorkflowMode": "استبدال بيانات الجهة في وضع سير العمل",
+      "recommendations": "شاهد التوصيات",
+      "sharePage": "مشاركة الصفحة",
+      "shortAnalysis": "شاهد التحليل المختصر",
+      "showLegendInReport": "إظهار المفتاح التوضيحي في التقرير ",
+      "unset": "غير مُعَدّ",
+      "viewDecisions": "عرض القرارات",
+      "viewDocuments": "استعراض المستندات",
+      "viewEntity": "عرض الجهة",
+      "viewPage": "عرض الصفحة",
+      "viewRoleDetails": "عرض تفاصيل الدور",
+      "viewRoles": "عرض قائمة الأدوار",
+      "viewUser": "عرض بيانات المستخدِم",
+      "viewUserList": "عرض قائمة المستخدمين"
+    },
+    "photoGroups": {
+      "delete": "حذف",
+      "editSettings": "تعديل الإعدادات",
+      "name": "اسم المجموعة",
+      "photosCount": "صور",
+      "updatedAt": "تاريخ التعديل"
+    },
+    "role": {
+      "adminTab": "إدارة النظام",
+      "allEntities": "جميع الجهات",
+      "allPages": "جميع الصفحات",
+      "analysis": "التحليل",
+      "decisions": "القرارات",
+      "documents": "ملفات",
+      "entitiesTab": "أذونات الجهات",
+      "leadership": "قيادة عليا",
+      "notifications": "الإشعارات",
+      "pagesTab": "أذونات الصفحات",
+      "reports": "تقارير",
+      "roles": "الأدوار",
+      "users": "المستخدِمون"
+    },
+    "roleDetails": {
+      "created": "تم إنشاء الدور بنجاح",
+      "description": "الوصف",
+      "header": "إعدادات دور المستخدِم",
+      "landingPage": "الصفحة المُنتقل إليها",
+      "name": "اسم دور المستخدم",
+      "saved": "تم حفظ الدور بنجاح"
+    },
+    "roles": {
+      "delete": "حذف",
+      "description": "الوصف",
+      "header": "أدوار المستخدمين",
+      "lastUpdated": "آخر تحديث",
+      "name": "الاسم",
+      "newRole": "دور جديد",
+      "settings": "إعدادات الدور"
+    },
+    "userDetails": {
+      "activate": "تفعيل",
+      "activeWorkflows": "سير العمل النشطة",
+      "address": "العنوان",
+      "created": "تم إنشاء المستخدم بنجاح",
+      "deactivate": "تعطيل",
+      "departments": "الإدارات",
+      "email": "البريد الإلكتروني",
+      "endDate": "تاريخ الانتهاء",
+      "fullName": "الاسم الكامل",
+      "header": "إعدادات المستخدِم",
+      "jobTitle": "المسمى الوظيفي",
+      "landingPage": "الصفحة المنتَقَل إليها",
+      "landingPageDefault": "التعيين حسب دور المستخدم (مستحسَن)",
+      "landingPageHint": "سيحلّ محلّ إعدادات دور المستخدم",
+      "mfaEnabled": "تفعيل التوثيق الثنائي",
+      "password": "كلمة المرور",
+      "phone": "رقم الهاتف",
+      "phone1": "رقم الهاتف 1",
+      "phone2": "رقم الهاتف 2",
+      "present": "يعمل حاليا في هذا الدَّور",
+      "role": "دور المستخدم",
+      "saved": "تمّ الحفظ",
+      "startDate": "تاريخ البدء",
+      "uploadImageBtn": "تحميل صورة المستخدم",
+      "uploadImageType": "ملف JPEG أو PNG حتى 2 ميجابايت",
+      "workEndDate": "تاريخ انتهاء العمل",
+      "workStartDate": "تاريخ بدء العمل"
+    },
+    "users": {
+      "delete": "حذف",
+      "header": "المستخدِمون",
+      "landingPage": "الصفحة المُنتقل إليها",
+      "name": "المستخدِمون",
+      "newUser": "مستخدم جديد",
+      "resetQrCode": "إعادة ضبط QR Code",
+      "role": "الدور",
+      "settings": "الإعدادات"
+    }
+  },
+  "datapoints": {
+    "action": "الإجراء",
+    "analysis": "التحليل",
+    "baselineDate": "تاريخ الأساس",
+    "baselineValue": "قيمة الأساس",
+    "comments": "تعليقات",
+    "externalComment": "تعليق خارجي",
+    "header": "تحرير البيانات: {{datasetName}}",
+    "headerDefault": "نقاط البيانات",
+    "internalNote": "تعليق داخلي",
+    "interval": "الفترة",
+    "polarity": "قطبية",
+    "prefix": "بادئة",
+    "prefixPlaceholder": "مثال: ر. ق.، ريال قطَري",
+    "status": "الحالة",
+    "outlook": "النظرة المستقبلية",
+    "suffix": "لاحقة",
+    "suffixPlaceholder": "مثال: %",
+    "target": "الأداء المستهدَف",
+    "targetDate": "تاريخ الهدف",
+    "targetValue": "قيمة الهدف",
+    "value": "الأداء الفعلي"
+  },
+  "datasetCommentsModal": {
+    "addCommentFor": "أضف تعليقًا على {{interval}}",
+    "header": "التعليقات الخارجية"
+  },
+  "datasetCommentsTable": {
+    "actions": "الإجراءات",
+    "externalComment": "تعليق خارجي",
+    "reportingPeriod": "الفترة",
+    "reportingPeriodDate": "الفترة: {{reportingPeriod}}",
+    "user": "المستخدِم"
+  },
+  "datasetFilter": {
+    "annual": "سنوي",
+    "monthly": "شهري",
+    "quarterly": "ربع سنوي",
+    "yoym": "شهري على أساس سنوي",
+    "yoyq": "ربعي على أساس سنوي",
+    "ytd": "منذ مطلع العام"
+  },
+  "datasetModal": {
+    "acceptanceFirstStartDate": "الفترة الأولى لتحديث القبول",
+    "acceptanceFirstStartDateTooltip": "هذه الفترة الزمنية  يتم تعيينها مرة واحدة فقط  لبدء القبول. لا يمكن تغييره عند بدء القبول.",
+    "acceptanceStartDate": "تاريخ بدء جدول القبول",
+    "acceptanceStartDateTooltip": "هذا هو تاريخ الإطلاق التالي للقبول. سيستمر 'القبول' في العمل بناءً على الفترة الزمنية المقررة حتى يصبح هذا الحقل في المستقبل.",
+    "acceptanceTargetInterval": "الجدول الزمني لتحديث الهدف",
+    "acceptanceTargetStartDate": "تاريخ بدء جدول قبول الأهداف",
+    "addGroup": "إضافة مجموعة",
+    "addSubgroup": "إضافة مجموعة فرعية",
+    "contributeToEntityStatus": "تضمين في حساب الحالة",
+    "created": "تم إنشاء ”{{datasetName}}”",
+    "description": "الوصف",
+    "descriptionTooltip": "لن يظهر في الواجهة الأمامية للوحة التحكم",
+    "groupName": "اسم المجموعة",
+    "groupsSubTitle": "قُم بإنشاء مجموعات هنا لإضافة أعمدة إلى مجموعة البيانات الخاصة بك",
+    "groupsTitle": "المجموعات في مجموعة البيانات",
+    "groupsTitleTooltip": "هنا يمكن القيام باختيار مقدار المجموعات أو السلاسل في مجموعة البيانات الخاصة بك وتسميتها. لا يمكن تحريرها بعد حفظها.\n\nإضافة مجموعات يؤدّي إلى إضافة أعمدة إلى مجموعة البيانات الخاصة بك ويتم استخدامها إما للتجميع أو السلسلة عندتمثيلها في رسم بياني.",
+    "header": "إنشاء مؤشر",
+    "headerEdit": "إعدادات المؤشر",
+    "interval": "الفترة",
+    "intervalSchedule": "فترة البيانات وجدول التحديث",
+    "mode": "إدخال البيانات",
+    "name": "الاسم",
+    "note": "ملاحظة",
+    "noteTooltip": "سيتم عرض هذا في صفحة الرسم البياني على الواجهة الأمامية للوحة التحكم.",
+    "primaryGroupsSubTitle": "أضف مجموعات هنا لإضافة أعمدة إلى مجموعة البيانات الخاصة بك",
+    "primaryGroupsTitle": "المجموعات الرئيسة في البيانات",
+    "quartersAbbr": "الربع {{year}}",
+    "quartersAbbrPeriod": "الربع ({{quarter}}) - الربع ({{quarter2}}) {{year}}",
+    "quartersAbbrPeriodFull": "الربع ({{quarter}})/{{year}} - الربع ({{quarter2}})/{{year2}}",
+    "quartersAbbr_0": "__NOT_USED__",
+    "quartersAbbr_1": "الربع الأول {{year}}",
+    "quartersAbbr_2": "الربع الثاني {{year}}",
+    "quartersAbbr_3": "الربع الثالث {{year}}",
+    "quartersAbbr_4": "الربع الرابع {{year}}",
+    "quartersAbbr_5": "__NOT_USED__",
+    "ragMode": "بُنية مجموعة البيانات",
+    "ragModeTooltip": "يجب ملاحظة أنه لا يمكنك تغيير نوع مجموعة البيانات بعد حفظها. فيما يأتي عرض لما يعنيه كل نوع من أنواع مجموعات البيانات:",
+    "saved": "تمّ الحفظ",
+    "source": "المصدَر",
+    "startDate": "أول فترة زمنية في مجموعة البيانات",
+    "subgroupName": "اسم المجموعة الفرعية",
+    "subgroupsSubTitle": "إضافة مجموعة فرعية سيضيف عامود إلى مجموعة البيانات الخاصة بك",
+    "subgroupsTitle": "مجموعات فرعية",
+    "subgroupsTitleTooltip": "هنا يمكنك تنسيق عدد المجموعات الفرعية وأسمائها. لا يمكنك تعديل هذه البيانات حال حفظها",
+    "tags": "وسم",
+    "type": "نوع القيمة",
+    "types": {
+      "number": "الرقم",
+      "text": "النصّ"
+    },
+    "valueLabel": "اسم قيمة الأداء الفعلي",
+    "valueLabelTooltip": "ستتم مقارنة عمود الأداء الفعلي في مجموعة البيانات بهدف لحساب الحالة. يمكنك في هذا الحقل إعادة تسمية هذا العمود. سيتم استخدام هذا الاسم على الواجهة الأمامية للوحة التحكم.",
+    "valueMode": "وضع القيمة",
+    "week": "الأسبوع {{weekNumber}}",
+    "weekAbbr": "اسبوع {{weekNumber}}",
+    "weekAbbrPeriod": "اسبوع {{weekNumber}} - اسبوع {{weekNumber2}} {{year}}",
+    "weekAbbrPeriodFull": "اسبوع {{weekNumber}} {{year}} - اسبوع {{weekNumber2}} {{year2}}",
+    "workflow": "سير العمل"
+  },
+  "datasets": {
+    "autogeneratedDataset": {
+      "projectBudget": {
+        "description": "الوصف",
+        "name": "ميزانية المشروع"
+      },
+      "projectStatus": {
+        "description": "الوصف",
+        "name": "تحديث حالة المشروع"
+      }
+    }
+  },
+  "decisionModal": {
+    "attachments": "المرفقات",
+    "createHeader": "قرارات المجلس الأعلى للشؤون الاقتصادية والاستثمار",
+    "created": "تم إنشاء ”{{topic}}”",
+    "decision": "القرار",
+    "dueDate": "الموعد النهائي",
+    "editHeader": "تحديث قرار المجلس: {{topic}}",
+    "header": "إعدادات القرار",
+    "owner": "الجهة المسؤولة",
+    "ownerLabel": "الجهة المسؤولة",
+    "ownerPlaceholder": "اسم الجهة المسؤولة",
+    "quarter": "رقم الاجتماع",
+    "quarterlyReport": "تقرير فصلي",
+    "saved": "تمّ الحفظ",
+    "status": "الحالة",
+    "topic": "الموضوع",
+    "update": "تحديث",
+    "updateLabel": "تحديث",
+    "updatePlaceholder": "تفاصيل التحديث",
+    "year": "سنة اجتماع المجلس"
+  },
+  "decisionStatus": {
+    "good": "جيد",
+    "goodSomeProblems": "جيد مع بعض التحديات",
+    "highlyProblematic": "تحديات كبيرة",
+    "problematic": "تحديات ملحوظة",
+    "resolved": "تم الحلّ"
+  },
+  "deleteAttachment": {
+    "content": "هل أنت متأكد أنك تريد حذف \"{{fileName}}\"؟",
+    "header": "حذف الملف"
+  },
+  "deleteDatasetModal": {
+    "content": "هل بالتأكيد تريد حذف {{datasetName}}؟",
+    "deleted": "تمّ حذف مجموعة البيانات",
+    "header": "حذف مجموعة البيانات"
+  },
+  "deleteDecisionModal": {
+    "content": "هل أنت متأكد أنك تريد حذف {{topic}}؟",
+    "deleted": "تم حذف القرار",
+    "header": "حذف القرار"
+  },
+  "deleteDepartmentModal": {
+    "content": "هل أنت متأكد أنك تريد حذف \"{{departmentName}}\"؟",
+    "deleted": "تم حذف الإدارة",
+    "header": "حذف الإدارة"
+  },
+  "deleteDocumentModal": {
+    "content": "هل أنت متأكد أنك تريد حذف \"{{documentName}}\"؟",
+    "deleted": "تم حذف المستند",
+    "header": "حذف المستند"
+  },
+  "deleteEntityModal": {
+    "content": "هل أنت متأكد أنك تريد حذف {{entityName}}؟",
+    "deleted": "تم حذف الجهة",
+    "header": "حذف الجهة"
+  },
+  "deleteHighlightModal": {
+    "content": "هل أنت متأكد أنك تريد حذف '{{highlightName}}'؟",
+    "deleted": "تم الحذف",
+    "header": "حذف الإنجاز"
+  },
+  "deleteMilestoneModal": {
+    "content": "هل أنت متأكد أنك تريد حذف {{milestoneName}}؟",
+    "deleted": "تم حذف المرحلة الرئيسية",
+    "header": "حذف المرحلة الرئيسية"
+  },
+  "deletePageModal": {
+    "content": "هل أنت متأكد من رغبتك في حذف ”{{pageName}}”؟",
+    "deleted": "تمّ حذف الصفحة",
+    "header": "حذف الصفحة"
+  },
+  "deletePhotoGroupModal": {
+    "content": "هل أنت متأكد من رغبتك في حذف ”{{photoGroupName}}”؟",
+    "deleted": "تم حذف مجموعة الصور",
+    "header": "حذف مجموعة الصور"
+  },
+  "deleteRoleModal": {
+    "content": "هل أنت متأكد من رغبتك في حذف ”{{roleName}}”؟",
+    "deleted": "تم حذف الدور",
+    "header": "حذف الدور"
+  },
+  "deleteUserModal": {
+    "content": "هل أنت متأكد أنك تريد حذف {{name}}؟",
+    "deleted": "تم حذف المستخدم بنجاح",
+    "header": "حذف المستخدم"
+  },
+  "deliveryStatuses": {
+    "monitoring": "المراقبة والمتابعة",
+    "notStarted": "لم يتمّ البدء",
+    "planningAdvanced": "التخطيط المتقدم",
+    "planningEarly": "التخطيط المبكر",
+    "planningMid": "التخطيط المتوسط",
+    "title": "المرحلة الحالية",
+    "unknown": "غير معروف"
+  },
+  "departmentModal": {
+    "created": "تم إنشاء ”{{departmentName}}”",
+    "departmentName": "اسم الإدارة",
+    "description": "الوصف",
+    "header": "إعدادات الإدارة"
+  },
+  "documentModal": {
+    "created": "تم إنشاء {{documentName}}",
+    "description": "الوصف",
+    "documentName": "اسم المستند",
+    "file": "الملف",
+    "header": "إعدادات المستند",
+    "headerEdit": "إعدادات المستند",
+    "replace": "استبدال",
+    "saved": "تم حفظ المستند",
+    "upload": "تحميل"
+  },
+  "export": {
+    "button": "تصدير",
+    "buttonProgress": "جاري التصدير",
+    "downloadLatestReport": "تحميل آخر تقرير",
+    "downloadSelectedPages": "تجميل الصفحات المختارة",
+    "failed": "فشل في تصدير التقرير",
+    "indicators": {
+      "description": "تقييم بناء على الانحراف بين الأداء الفعلي والمسار المخطط",
+      "title": "المؤشرات"
+    },
+    "lastUpDate": "آخر تحديث: ",
+    "leadershipReport": "التقرير التنفيذي",
+    "legend": "المفتاح",
+    "numberOfSelectedPages": "{{count}} صفحة مختارة",
+    "numberOfSelectedPages_0": "{{count}} صفحة مختارة",
+    "numberOfSelectedPages_1": "{{count}} صفحة مختارة",
+    "numberOfSelectedPages_2": "{{count}} صفحة مختارة",
+    "numberOfSelectedPages_3": "{{count}} صفحة مختارة",
+    "numberOfSelectedPages_4": "{{count}} صفحة مختارة",
+    "numberOfSelectedPages_5": "{{count}} صفحة مختارة",
+    "printingDate": "تاريخ الطبع: ",
+    "projectProgram": {
+      "description": "تقييم بناء على مساهمة وجودة المراحل الرئيسية والمؤشرات",
+      "title": "البرامج و المشاريع"
+    },
+    "selectedPages": "الصفحات المختارة (PDF)",
+    "thisPage": "الصفحة الحالية (PDF)"
+  },
+  "fileUploader": {
+    "invalidFileSize": "يجب أن يكون حجم الملف أقل من {{maxSize}} كيلو بايت",
+    "invalidFileType": "نوع الملف غير مدعوم"
+  },
+  "footer": {
+    "home": "الصفحة الرئيسية",
+    "notifications": "الإشعارات",
+    "search": "بحث"
+  },
+  "glossary": {
+    "anonymisation": {
+      "content": "معالجة البيانات التي تتضمن معلومات شخصية؛ بحيث لا يمكن تحديد هوية الأفراد في البيانات الناتجة. يتيح إخفاء الهوية نشر البيانات دون خرق مبادئ حماية البيانات. التقنيات الرئيسية هي التجميع وإزالة الهوية. يجب توخي الحذر لتجنب تسرّب البيانات، وهو تسرّبٌ من شأنه أن يؤدي إلى المساس بخصوصية الأفراد. تدرس UKAN أفضل الممارسات في إخفاء هوية البيانات.",
+      "title": "إخفاء الهوية"
+    },
+    "anonymization": {
+      "content": "انظر إخفاء الهوية.",
+      "title": "إخفاء الهوية"
+    },
+    "api": {
+      "content": "واجهة برمجة التطبيقات. بالنسبة للبيانات، عادةً ما تكون هذه طريقة يوفرها ناشر البيانات للبرامج أو التطبيقات لقراءة البيانات مباشرةً من على شبكة الإنترنت. يرسِل التطبيق إلى واجهة برمجة التطبيقات استعلامًا يسأل عن البيانات المحددة التي يحتاجها، وعلى سبيل المثال: وقت مغادرة الحافلة التالية لمحطة معينة. وهذا يسمح للتطبيق باستخدام البيانات دون تنزيل مجموعة البيانات بأكملها؛ مما يوفر النطاق الترددي ويضمن أن البيانات المستخدمة هي أحدث ما هو متاح.",
+      "title": "واجهة برمجة التطبيقات"
+    },
+    "appProgrammingInterface": {
+      "content": "طريقة من طرق تحدُّث برامج الكمبيوتر مع بعضها البعض، ويمكن فهمها استنادا إلى كيفية إرسال المبرمج للتعليمات فيما بين البرامج.",
+      "title": "واجهة برمجة التطبيقات"
+    },
+    "application": {
+      "content": "جزء من برمجية (والتطبيق app اختصار لـِ application)، وخاصة تلك المصممة للتشغيل على شبكة الإنترنت أو على الهواتف النقالة وعلى منصات أخرى مماثلة. ويمكن للتطبيقات إجراء اتصالات شبكية بقواعد بيانات كبيرة، وبالتالي تكون طريقة قوية للتعامل مع البيانات المفتوحة، والتي قد تكون معلومات متوافرة في الوقت الفعلي، ومخصّصة، ومحدّدة بالمكان الجغرافي (باستخدام نظام تحديد المواقع العالمي للهاتف المحمول). يمكن أيضًا استخدام تطبيقات التعهيد الجماعي (التوظيف الجماعي) لإنشاء مجموعات البيانات أو تحسينها.",
+      "title": "التطبيق / البرنامج"
+    },
+    "attribution": {
+      "content": "الاعتراف بمصدر البيانات عند استخدامه أو إعادة نشره. وقد يتضمن ترخيص البيانات الذي يسمح باستخدام البيانات شرطًا لإسناد المصدر. كما قد تظل البيانات الخاضعة لهذا التقييد مدرجة ضمن البيانات المفتوحة وفقًا لـتعريف المفتوحة.",
+      "title": "الإسناد (النَّسْب)"
+    },
+    "title": "مسرد المصطلحات"
+  },
+  "hardcode": {
+    "costOfLiving": {
+      "analysis": "لا توجد بيانات لعرضها",
+      "pageTitle": "تكلفة المعيشة (%)",
+      "source": "جهاز التخطيط والإحصاء"
+    },
+    "gdpCard": {
+      "baseline": "الربع الثاني 2017",
+      "source": "جهاز التخطيط والإحصاء",
+      "suffix": "مليار",
+      "title": "مساهمة القطاعات الهيدروكربونية في الناتج المحلي الإجمالي (مليار ريال قطري)",
+      "title2": "مساهمة القطاعات غير الهيدروكربونية في الناتج المحلي الإجمالي (مليار ريال قطري)"
+    },
+    "governmentRevenueCard": {
+      "baseline": "الربع الثاني 2017",
+      "source": "وزارة المالية",
+      "suffix": "مليار",
+      "title": "الإيرادات الحكومية الهيدروكربونية (مليار ريال قطري)",
+      "title2": "الإيرادات الحكومية غير الهيدروكربونية (مليار ريال قطري)"
+    },
+    "qatarNationals": {
+      "growth": {
+        "baseline": "لا توجد بيانات لعرضها",
+        "source": "جهاز التخطيط والإحصاء",
+        "suffix": "%",
+        "title": "نسبة نمو المواطنين (%)"
+      },
+      "pageTitle": "تعداد المواطنين القطريين",
+      "share": {
+        "latestData": "أحدث البيانات: لا توجد بيانات لعرضها",
+        "nonQataris": "غير القطريين",
+        "qataris": "القطريين",
+        "source": "المصدر: جهاز التخطيط والإحصاء",
+        "title": "نسبة المواطنين القطريين من إجمالي السكان (%)"
+      },
+      "totalNumber": {
+        "interval": "الفترة: لا توجد بيانات لعرضها",
+        "source": "المصدر: جهاز التخطيط والإحصاء",
+        "title": " إجمالي عدد المواطنين القطريين"
+      }
+    },
+    "qatarisEmploymentCard": {
+      "baseline": "الربع الثاني 2017",
+      "group1": "القطاع الخاص التي تملك الدولة بها حصة مسيطرة",
+      "group2": "القطاع الخاص",
+      "source": "جهاز التخطيط والإحصاء",
+      "suffix": "%",
+      "title": "نسبة القطريين العاملين في شركات القطاع الخاص التي تملك الدولة بها حصة مسيطرة",
+      "title2": "نسبة القطريين العاملين في الشركات الكبرى المملوكة من القطاع الخاص 100%"
+    },
+    "sovereignFund": {
+      "analysis": "<ul><li><p>بانتظار البيانات المفصلة لعرض حجم أصول الصندوق السيادي في دولة قطر ونسبة العائد الحقيقي السنوي لهذه الأصول</p></li></ul>",
+      "pageTitle": "حجم أصول الصندوق السيادي والعائد الاستثماري السنوي  (مليار ر.ق)",
+      "source": "جهاز التخطيط والإحصاء"
+    },
+    "workforce": {
+      "analysis": "لا توجد بيانات لعرضها",
+      "pageTitle": "القوى العاملة",
+      "source": "جهاز التخطيط والإحصاء"
+    },
+    "year": "سنة"
+  },
+  "header": {
+    "title": "نظام المراقبة والمتابعة"
+  },
+  "highlightModal": {
+    "addComment": "أضف تعليق",
+    "comment": "التعليق",
+    "commentContent": "المحتوى",
+    "commentStatus": "الحالة",
+    "comments": "التلعيقات",
+    "created": "تم إنشاء الإنجاز",
+    "header": "إنشاء إنجاز",
+    "headerEdit": "إعدادات الإنجاز",
+    "highlightName": "الاسم",
+    "icon": "الأيقونة",
+    "saved": "تم الحفظ"
+  },
+  "highlightStatuses": {
+    "negative": "سلبي",
+    "neutral": "محايد",
+    "positive": "إيجابي"
+  },
+  "imageUploader": {
+    "imageType": "ملف بصيغة JPEG ،SVG أو PNG بحجم حتّى 200 كيلوبايت",
+    "invalidImageSize": "يجب أن تكون الصورة أقل من {{maxSize}} كيلوبايت",
+    "invalidImageType": "نوع الصورة غير مدعوم",
+    "uploadBtn": "تحميل الشعار"
+  },
+  "menu": {
+    "account": {
+      "councilDecisions": "قرارات المجلس",
+      "downloadQuarterlyLeadershipReport": "تحميل تقرير القيادة ربع السنوي",
+      "logout": "تسجيل خروج",
+      "profile": "الملف الشخصي",
+      "reportUnavailable": "تقرير القيادة ربع السنوي غير متوافر"
+    }
+  },
+  "milestoneModal": {
+    "comment": "تعليق",
+    "created": "تم إنشاء \"{{milestoneName}}\"",
+    "description": "وصف المرحلة الرئيسية",
+    "header": "اعدادات المراحل الرئيسية",
+    "headerEdit": "اعدادات المراحل الرئيسية",
+    "milestoneName": "اسم المرحلة الرئيسية",
+    "owner": "الجهة المسؤولة",
+    "progressPercent": "تقدم (٪)",
+    "saved": "تم حفظ المرحلة الرئيسية",
+    "status": "الحالة"
+  },
+  "notFound": {
+    "hint": "الصفحة غير موجودة أو لم تعد متوفرة. يرجى تحديد صفحة أخرى أو استخدام خيار البحث شكرا لك",
+    "title": "الصفحة غير موجودة"
+  },
+  "notSupported": {
+    "header": "هذا التطبيق غير متوافق مع حجم شاشتك",
+    "messageDesktop": "يرجى ضبط عرض المتصفح ليكون أقل عرضًا (أقل من 2400 بكسل)",
+    "messageMobile1": "إذا كنت تستخدم جهاز كمبيوتر ، فيرجى جعل عرض المتصفح الخاص بك أوسع",
+    "messageMobile2": "إذا كنت ترغب في استخدام جهاز لوحي / محمول ، فستحتاج إلى استخدام جهاز iPad Pro"
+  },
+  "notification": {
+    "noResults": "لا توجد إشعارات"
+  },
+  "pageActions": {
+    "end": "نهاية",
+    "filters": {
+      "chooseDate": "اختيار التاريخ",
+      "custom": "تاريخ مخصص",
+      "default": "طوال الوقت",
+      "month": "شهر واحد",
+      "more": "المزيد",
+      "quarter": "ربع سنة",
+      "yoy": "على أساس سنويّ",
+      "yoym": "شهري على أساس سنوي",
+      "yoyq": "ربعي على أساس سنوي",
+      "ytd": "منذ مطلع العام"
+    },
+    "selectedFilter": "تصفية: {{filter}}",
+    "start": "بداية",
+    "to": "إلى"
+  },
+  "pageEditor": {
+    "addElement": "إضافة عنصر",
+    "cancelConfirmation": "هل أنت متأكد أنك تريد الإلغاء؟",
+    "cardElements": {
+      "champion": {
+        "subtitle": "يعرض شعار واسم مسؤول القطاع",
+        "title": "مسؤول القطاع"
+      },
+      "colleagueDetails": {
+        "subtitle": "يعرض الوظيفة وتفاصيل الاتصال",
+        "title": "معلومات الزميل"
+      },
+      "combinedChart": {
+        "subtitle": "يظهر رسم بياني لعدة مجموعة بيانات",
+        "title": "رسم بياني متعدد"
+      },
+      "entitiesOverallMilestones": {
+        "subtitle": "عرض اسم البرنامج/المشروع، وحالته، وتقدم الإنجاز فيه، وأحدث تعليق",
+        "title": "تمييز البرنامج والمشروع"
+      },
+      "entityHighlights": {
+        "subtitle": "عرض تعليقات خاصّة بجهة معيّنة إلى جانب أيقونة واحدة",
+        "title": "التعليق العام"
+      },
+      "entityInformation": {
+        "subtitle": "يعرض مجموعات البيانات والملاحظات المحددة",
+        "title": "معلومات إضافية عن البرنامج والمشروع"
+      },
+      "entityOverview": {
+        "subtitle": "يعرض نظرة عامة ، مسؤول القطاع ، والجدول الزمني للتقدم",
+        "title": "نظرة عامة على البرنامج والمشروع"
+      },
+      "giantPageButton": {
+        "subtitle": "يتصل بالصفحات",
+        "title": "زرّ الصفحة العملاقة"
+      },
+      "indicatorAnalysis": {
+        "subtitle": "-عرض الملاحظة الداخلية والحالة وثلاث قِيَم: خط الأساس (الحالة القائمة)، والقيمة الفعلية، والقيمة المستهدَفة أو السابقة",
+        "title": "تحليل المؤشر"
+      },
+      "largeChart": {
+        "subtitle": "يعرض القيم والأهداف وغيرها من المعلومات",
+        "title": "رسم بياني كبير"
+      },
+      "largePageButton": {
+        "subtitle": "يتصل بالصفحات",
+        "title": "زِرّ الصفحة الكبيرة"
+      },
+      "mediumChart": {
+        "subtitle": "يعرض القيم والأهداف وغيرها من المعلومات",
+        "title": "رسم بياني متوسط الحجم"
+      },
+      "mediumTable": {
+        "subtitle": "من خلال العديد من المؤشرات التي تظهر خط الأساس وهدف المختار وهدف عام 2030",
+        "title": "جدول متوسط الحجم"
+      },
+      "milestones": {
+        "subtitle": "يعرض الأحداث الرئيسية والكيانات الداعمة في مخطط زمني",
+        "title": "الجدول الزمني"
+      },
+      "pageButton": {
+        "subtitle": "يربط الصفحات ويعرض التصنيف المستند إلى اللون",
+        "title": "زرّ الصفحة"
+      },
+      "pageButtonProgress": {
+        "subtitle": "الاتصال بالصفحات وعرض حالة المحتوى",
+        "title": "زر الصفحة مع حالة المحتوى"
+      },
+      "photos": {
+        "subtitle": "تتبع التقدم المرئي بواسطة تفاصيل الصورة و نسبة التقدم و اختيار التاريخ",
+        "title": "تعقب الصور"
+      },
+      "projectSummary": {
+        "subtitle": "يعرض مؤشرات الأداء الرئيسية للبرنامج والجدول الزمني",
+        "title": "ملخص عام عن البرنامج"
+      },
+      "sectionHeading": {
+        "subtitle": "عناصر المجموعات وأقسامها",
+        "title": "عنوان القِسم"
+      },
+      "simpleValue": {
+        "subtitle": "عرض القيمة الفعلية وحالة التقدم",
+        "title": "قيمة بسيطة"
+      },
+      "smallChart": {
+        "subtitle": "يعرض القيم والأهداف وغيرها من المعلومات",
+        "title": "رسم بياني صغير"
+      },
+      "supportingEntities": {
+        "subtitle": "عرض الجهات الداعمة",
+        "title": "الجهات الداعمة"
+      },
+      "title": {
+        "chartElements": "عناصر الرسوم البيانية",
+        "entityElements": "عناصر المشروع",
+        "generalElements": "العناصر العامة"
+      }
+    },
+    "changeLanguageConfirmation": "التغييرات على التصميم لن يتمّ حفظها، هل تريد الاستمرار؟",
+    "changesSaved": "تم تحديث الصفحة بنجاح",
+    "deleteCardModal": {
+      "content": "هل أنت متأكد أنك تريد حذف \"{{title}}\"؟",
+      "header": "حذف البطاقة"
+    },
+    "devices": {
+      "Desktop": "سطح المكتب",
+      "Mobile": "الهاتف الجوّال (موبايل)",
+      "Tablet": "جهاز لوحي (تابلِت)"
+    },
+    "editPages": "تعديل ”{{pageName}}”",
+    "editProperties": "خصائص {{name}}",
+    "editing": "تعديل ”{{pageName}}”",
+    "emptyPage": "هذه الصفحة فارغة",
+    "exitPageConfirmation": "هل أنت متأكّد من أنك تريد الخروج من المحرِّر؟",
+    "indicatorNotificationsModal": {
+      "button": "إشعارات البريد الإلكتروني",
+      "header": "إشعارات البريد الإلكتروني",
+      "toggle": "إرسال إشعار عند تحديث المؤشر",
+      "you": "أنت"
+    }
+  },
+  "pageModal": {
+    "created": "تم إنشاء ”{{pageName}}”",
+    "description": "وصف الصفحة",
+    "displayDeliveryStatus": "عرض المرحلة للمراقبة",
+    "displayRagStatus": "عرض الأداء الفعلي مقارنة بالأداء المستهدَف",
+    "entity": "الجهة الرئيسية",
+    "header": "إعدادات الصفحة",
+    "listOrder": "ترتيب قائمة التجوّل",
+    "pageName": "اسم الصفحة",
+    "pageTitle": "عنوان الصفحة",
+    "parent": "الصفحة الرئيسية",
+    "permissions": "صلاحيات المستخدم",
+    "saved": "تم حفظ إعدادات الصفحة",
+    "showInSidebar": "إظهار في الشريط الجانبي",
+    "tags": "وسم",
+    "titleViewMode": "وضع عرض العنوان"
+  },
+  "pages": {
+    "empty": {
+      "needToAssign": "تعيين أو طلب أن يتم تعيين صفحة مقصودة إلى دور المستخدم الخاص بك.",
+      "needToCreate": "إذا لم تكن هناك صفحات، فستحتاج إلى إنشاء صفحة قبل التعيين لدور المستخدم الخاص بك."
+    },
+    "qualityOfPlanning": "جودة التخطيط",
+    "ragStatus": "مستوى الأداء المرتبط بالمؤشرات القطاعية",
+    "titleViewMode": {
+      "default": "افتراضي",
+      "gold": "ذهبي",
+      "none": "بدون عنوان"
+    }
+  },
+  "photoGroupModal": {
+    "created": "تم إنشاء \"{{photoGroupName}}\"",
+    "header": "إعدادات مجموعة الصور",
+    "headerEdit": "إعدادات مجموعة الصور",
+    "photo": {
+      "description": "الوصف",
+      "replace": "استبدال",
+      "title": "العنوان",
+      "upload": "تحميل"
+    },
+    "photoGroupName": "اسم مجموعة الصور",
+    "photoTitle": "العنوان",
+    "photoVisibility": "الرؤية",
+    "photos": "صور",
+    "progressPercent": "تقدم (٪)",
+    "saved": "تم حفظ مجموعة الصور",
+    "takenAt": "تاريخ التقاط الصورة",
+    "visibility": {
+      "default": "ظاهر لجميع الأشخاص الذين لديهم إذن الصفحة",
+      "hideFromDashboard": "إخفاء من لوحة المتابعة",
+      "hideFromLeadership": "إخفاء عن القيادة",
+      "title": "الرؤية"
+    }
+  },
+  "polarity": {
+    "decrease": "نقصان",
+    "increase": "زيادة"
+  },
+  "resetQrCodeModal": {
+    "header": "إعادة ضبط الـ QR code",
+    "reseted": "تم إعادة الضبط"
+  },
+  "richTextEditor": {
+    "insertURL": "ادخل الرابط",
+    "url": "الرابط"
+  },
+  "search": {
+    "allChampions": "مسؤول القطاع",
+    "anyStatus": "الحالة",
+    "createdBy": "من إنشاء: {{name}}",
+    "deliveryStatus": "حالة التسليم: {{status}}",
+    "lastData": "البيانات الأخيرة: {{date}}",
+    "lastUpdate": "آخر تحديث: {{date}}",
+    "page": "الصفحة: {{name}}",
+    "parentEntity": "الجهة الرئيسية: {{name}}",
+    "parentPage": "الصفحة الرئيسية: {{name}}",
+    "searchResults": "نتائج البحث {{resultsCount}}",
+    "searchType": {
+      "charts": "الرسوم البيانية",
+      "pages": "الصفحات",
+      "pagesAndCharts": "الصفحات والرسوم البيانية"
+    },
+    "sort": {
+      "dateCreated": "تاريخ الإنشاء ({{sortBy}})",
+      "lastUpdated": "آخر تحديث ({{sortBy}})",
+      "relevance": "الأكثر صلة"
+    }
+  },
+  "statuses": {
+    "automatic": "حساب تلقائي ({{calculatedRagStatus}})",
+    "automaticEmpty": "حساب تلقائي",
+    "complete": "مكتمل",
+    "good": "جيد",
+    "goodDescription": "ملتزم في مستوى الإنجاز، يغطي النطاق مع جودة التنفيذ",
+    "highlyProblematic": "تحديات كبيرة",
+    "highlyProblematicDescription": "خارج المسار أو مشكلات هيكلية",
+    "none": "لا يوجد",
+    "notRelevant": "غير ذي صلة",
+    "problematic": "تحديات ملحوظة",
+    "problematicDescription": "تأخر كبير في مستوى الإنجاز أو مشكلات كبيرة",
+    "someProblems": "جيد مع بعض التحديات",
+    "someProblemsDescription": "تأخر بسيط في مستوى الإنجاز أو مشكلات بسيطة",
+    "status": "الحالة",
+    "unknown": "البيانات غير متوفرة"
+  },
+  "outlooks": {
+    "outlook": "النظرة المستقبلية",
+    "positive": "إيجابي",
+    "stable": "مستقر",
+    "negative": "سلبي"
+  },
+  "supportingEntity": {
+    "createHeader": "إنشاء جهة داعمة",
+    "created": "تم إضافة الجهة الداعمة بنجاح",
+    "delete": "حذف",
+    "deleteContent": "هل أنت متأكد أنك تريد حذف \"{{name}}\"؟",
+    "deleteHeader": "حذف الجهة الداعمة",
+    "deleted": "تم حذف الجهة الداعمة بنجاح",
+    "edit": "تعديل الجهة الداعمة",
+    "editHeader": "تعديل الجهة الداعمة",
+    "endDate": "تاريخ الانتهاء",
+    "entity": "الجهة الداعمة",
+    "name": "الاسم",
+    "role": "الدور",
+    "saved": "تم تعديل بيانات الجهة الداعمة بنجاح",
+    "selectSupportingEntities": "اختر جهة داعمة",
+    "startDate": "تاريخ البدء"
+  },
+  "welcome": {
+    "0": {
+      "content": "تتيح لك لوحة معلومات المجلس الأعلى للشؤون الاقتصادية والاستثمار الفرصة لتتبع التقدم وحل المشكلات خلال رحلة التسليم الخاصة بك.",
+      "header": "مرحبًا بك في لوحة التأثير الاقتصادي"
+    },
+    "1": {
+      "content": "ابقَ أنت والمعنيّين الرئيسيين على اطلاع. يتم تحديث البيانات المتعلقة بالمشاريع  والإنجازات  المهمة والمؤشرات والأهداف، كما يتمّ التحقق من جودتها في لوحة التحكّم بانتظام باستخدام سير عمل صارم لضمان الجودة.",
+      "header": "مصدر واحد للحقائق"
+    },
+    "2": {
+      "content": "يتم تصنيف المسار على أنه إما جيد، أو جيد مع تحديات طفيفة، أو توجد تحديات ملحوظة، أو توجد تحديات حرجة، ويتم تمييزه بالألوان أيضا عبر لوحة التحكم.",
+      "header": "التقييم التلقائي للبيانات"
+    },
+    "3": {
+      "content": "تساعدك هذه التحديثات، أنت والفريق، على التصرف بسرعة. لكل مصدر بيانات، يمكنك أيضًا إنشاء شروط مخصصة للتنبيهات، بحيث يتم اخطارك عند تغير حالة مجموعة البيانات أو عندما يطلب منك مراجعة البيانات والإعدادات.",
+      "header": "تلقّي إشعارات مهمة"
+    },
+    "getStarted": "ابدأ",
+    "next": "التالي",
+    "skip": "تخطّي"
+  },
+  "workflowDetailsModal": {
+    "currentStep": "الخطوة الحالية",
+    "datapointPeriod": "الفترة",
+    "header": "معلومات سير العمل",
+    "stepStatus": "حالة الخطوة",
+    "stepUser": "المستخدم",
+    "totalSteps": "مجموع الخطوات",
+    "type": "النوع",
+    "workflowStatus": "حالة سير العمل"
+  }
+}
